@@ -8,7 +8,7 @@ import java.io.*;
 public class MysteriousSong 
 {
     private static String base64Decode(String input)
-    {
+    { 
         try 
         {
             byte[] decodedString = Base64.getDecoder().decode(input);
